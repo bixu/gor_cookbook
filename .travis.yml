@@ -1,0 +1,11 @@
+sudo: required
+services:
+  - docker
+language: ruby
+rvm:
+- 2.2
+bundler_args: --binstubs
+script:
+- export PATH=./bin:$PATH
+- bundle --binstubs
+- kitchen test
