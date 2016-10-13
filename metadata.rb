@@ -4,7 +4,7 @@ maintainer_email 'blake.irvin@gmail.com'
 license 'MIT'
 description 'Installs/Configures gor'
 long_description 'Installs/Manages the Goreplay web traffic replicator'
-version '0.1.0'
+version '0.2.0'
 issues_url 'https://github.com/bixu/gor/issues'
 source_url 'https://github.com/bixu/gor'
 
